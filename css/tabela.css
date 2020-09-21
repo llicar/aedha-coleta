@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.body{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    margin:  0 auto;
+    background-color: #E9E9E9;
+    height: 150px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .header div {
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  
+  .header figure {
+    position: relative;
+    left: 3%;
+    width: 100px;
+    height: 100px;
+   
+  }
+  
+  .header img {
+    width: 100px;
+  }
+  
+  .header h1 {
+  position: relative;
+  width: 150px;
+  color: #52CEC7;
+  left: 80px;
+  display: flex;
+  font-weight: bold;
+  }
+
+
+
+.container_table{
+	overflow: auto;
+	height: 500px;
+	box-shadow: 0px 3px 5px 3px #b3b3b3;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+th{
+	position: sticky;
+	top: 0;
+	background-color: #1EC3BA!important;
+	color: white!important;
+	z-index: 1;
+}
+
+table#table thead tr {
+	cursor: pointer;
+	
+}
+
+.src-table{
+	
+	text-align: center;
+	box-shadow: 0px 3px 5px 3px #d4d3d3;
+	border-radius: 7px;
+	padding: 5px;
+	width: 50%;
+    left: 50px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+td{
+	border-radius: 7px;
+}
+
+
+

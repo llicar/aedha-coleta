@@ -14,6 +14,7 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="js/script.js"></script>
+        
         <script type="text/javascript" src="js/plugins/jquery.validate.js"></script>
         <script type="text/javascript" src="js/plugins/localization/messages_pt_BR.js"></script>
         <script type="text/javascript" src="js/plugins/additional-methods.js"></script>
@@ -25,7 +26,7 @@
     
 <header>
 <div class="header">
-    <figure><a href="icons/logo_aedha 1.png"><img src="icons/logo_aedha 1.png"></a></figure>
+    <figure><a href="icons/logo_aedha 1.png" target="_blank"><img src="icons/logo_aedha 1.png"></a></figure>
     <h1>Guardinha</h1>
     
 </div>
@@ -91,8 +92,14 @@
 
 </div> 
 
+
+
 <div class="container">
 <footer>
+    <a href="ocorrencias.php">
+        Acessar ocorrencias
+    </a>
+    <br>
     <p>
         Disponibilizado por: Associação de educação do homem de amanhã - AEDHA
     <p>
