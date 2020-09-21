@@ -74,7 +74,7 @@
         </div>
 
         <div class="content-input">
-            <label>Local no mapa <br> <span class="sub-label">por favor, tire um "print" da localização no google maps</span></label>
+            <label>Local no mapa <br> <span class="sub-label">por favor, tire um "print" da tela do seu celular, na localização da ocorrencia no Google Maps</span></label>
             <div class="cont-file">
                 <input type="hidden" name="MAX_FILE_SIZE" value="3000000">
                 <input type="file" id="imagem_mapa" class="form-file" name="imagem_mapa"/>
