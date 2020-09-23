@@ -6,8 +6,8 @@ include('upload_arquivos.php');
 $cnn = conexao();
 
 //envia imagens para o diretório
-upload("imagens/locais",$_FILES["imagem_local"]);
-upload("imagens/mapas",$_FILES["imagem_mapa"]);
+upload("https://aedha-coleta.herokuapp.com/imagens/locais",$_FILES["imagem_local"]);
+upload("https://aedha-coleta.herokuapp.com/imagens/mapas",$_FILES["imagem_mapa"]);
 
 //atribui o nome das imagens em md5 junto com sua extenção
 $imagem_local=nome_arquivo($_FILES["imagem_local"]);
