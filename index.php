@@ -96,6 +96,7 @@
 
 <div class="container">
 <footer>
+<p>Os dados coletados são de finalidade publica, e serão usados para ajudar a traçar estratégias de melhoria ao ambiente publico, e bem-estar social.</p>
     <a href="ocorrencias.php">
         Acessar ocorrencias
     </a>
