@@ -8,7 +8,7 @@ function upload($file,$local)
     
     $name = md5($file["name"]);
     $tipo = strrchr($file["name"],".");
-    $tmp_file_name = "{$name}.{$tipo}";
+    $tmp_file_name = "{$name}{$tipo}";
     // Move o arquivo da pasta temporaria de upload para a pasta de destino 
 
     $clientS3 = S3Client::factory(array(
@@ -22,6 +22,8 @@ function upload($file,$local)
             'Bucket' => "aedha-projeto/$local",
             'Key'    => $tmp_file_name,
             'SourceFile' =>$file['tmp_name'],
+            'ACL'    => 'public-read',
+            'ContentType' => "image"
         ]);
 
     } catch(S3Exeption $e) {
